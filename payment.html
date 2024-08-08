@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content "width=device-width, initial-scale=1.0">
+
+<title> Quick Working solutions </title>
+<link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Poppins">
+    <style>
+      body {
+        font-family: 'Poppins';
+        font-size: 15px;
+      }
+    </style>
+    
+
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+     <link rel="stylesheet" href= "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    
+    <style>
+        .whatsapp-button {
+            display: inline-block;
+            background: #25D366;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+
+        <link rel="icon" href="images/logos.png" type="image/png">
+
+        
+    
+    
+</head>
+<body>
+<section class="sub-header">
+<nav>
+<a><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()" ></i>
+<ul>
+<li><a href="index.html">HOME </a></li>
+<li><a href="content.html">CONTENT MARKETING</a></li>
+<li><a href="website.html">WEB DESIGN </a></li>
+<li><a href="payment.html"> PAYMENT </a></li>
+<li><a href="casestudy.html">CASE STUDY</a></li>
+<li><a href="career.html">CAREER OPPORTUNITIES</a></li>   
+<li><a href="contact.html">CONTACT US</a></li>
+       
+            <a class="whatsapp-button" href="https://api.whatsapp.com/send?phone=0737136771">Chat on WhatsApp</a>
+                
+            
+</ul>
+</div>
+    <i class="fa fa-bars" onclick="showMenu()" ></i>
+</nav>
+    <div class="text-box">
+        <h2>Make your payments here!</h2>
+       <p></p>
+    </div>
+</section>
+    
+ 
+    
+    
+
+    <section class="outreach">
+    <p1> Till Number:</p1>
+ 
+    <div class="">
+        <div class=project-col>
+            <img src="images/mpesa.jpg">
+            <div class="">
+                <h3>QUICK WORKING SOLUTIONS</h3>
+               
+                
+            </div>
+        </div>
+        </div>
+       
+        
+  
+    
+     
+  
+  
+    </section>
+    
+    <section class="donation">
+       
+        <p1> Quick is patient, organic, and long-lasting in the fastest way possible </p1>
+        
+    </section>
+   
+    
+   
+    <!-------footer------>
+    
+    
+          <section class="footer">
+              
+        <h4> Follow Our Social Media Pages</h4>
+              <p1> Quick Working Solutions </p1>
+      <div class="icons">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-tiktok"></i>
+            <i class="fab fa-instagram"></i>
+           
+        </div>
+        <p1>2024 Quick Working Solutions &copy;</p1>
+        
+    </section>
+      <script>
+    
+    var navLinks = document.getElementById("navLinks")
+    
+    function showMenu(){
+        navLinks.style.right = "0";
+        
+    }
+    
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+        
+    }
+    
+    </script>
+    
+    
+    
+     <script>
+        (function () {
+            var whatsappButton = document.querySelector('.whatsapp-button');
+            whatsappButton.addEventListener('click', function () {
+                // Analytics tracking code or other actions can be added here if needed
+                
+                // Open WhatsApp chat window
+                window.open(this.href, '_blank', 'toolbar=yes,scrollbars=yes,resizable=yes,top=300,left=500,width=600,height=600');
+                
+                return false;
+            });
+        })();
+    </script>
+
+
+        
+
+
+</body>
+</html>
